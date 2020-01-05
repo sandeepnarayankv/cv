@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <form action="index.html" method="post">
+      <label for="firstname" name="firstName">First Name:</label>
+      <input type="text" id="firstname" name="firstName" placeholder="First Name" required>
+      <label for="lastname" name="lastName">Last Name:</label>
+      <input type="text" id="lastname" name="lastName" placeholder="Last Name" required>
+      <br>
+      <label for="email" name="email">eMail Address:</label>
+      <input type="email" id="email" name="email" placeholder="eMail Address" required>
+      <label for="password" name="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Password" minlength="5" maxlength="10" required>
+      <br>
+      <label for="phone" name="phone">Phone Number:</label>
+      <input type="number" id="phone" name="phone" placeholder="Phone Number" required>
+      <br>
+      <label for="sex" name="sex">Sex:</label>
+      <br>
+      <label for="male" name="sex">Male</label>
+      <input type="radio" name="sex" value="M">
+      <label for="female" name="sex">Female</label>
+      <input type="radio" name="sex" value="F">
+      <label for="ND" name="sex">Don't Want to Disclose</label>
+      <input type="radio" name="sex" value="ND">
+      <br>
+      <label name="month">Month</label>
+      <select name="month">
+        <option value="1">Jan</option>
+        <option value="2">Feb</option>
+        <option value="3">Mar</option>
+        <option value="4">Apr</option>
+        <option value="5">May</option>
+        <option value="6">Jun</option>
+        <option value="7">Jul</option>
+        <option value="8">Aug</option>
+        <option value="9">Sep</option>
+        <option value="10">Oct</option>
+        <option value="11">Nov</option>
+        <option value="12">Dec</option>
+      </select>
+      <br>
+      <textarea name="message" rows="8" cols="80">Message</textarea>
+      <input type="submit" name="Submit" value="Submit">
+    </form>
+  </body>
+</html>
